@@ -29,8 +29,8 @@ class Business:
 
     def get_reviews(self):
         if self.reviews is None:
-            # vado a leggerele dal DAOe popolo la lista
-            dao. get_review(self.reviews_id)
+            # vado a leggerele dal DAO e popolo la lista
+            dao.get_review(self.reviews_id) #metodo non esistente
             pass
         else:
             return self.reviews
